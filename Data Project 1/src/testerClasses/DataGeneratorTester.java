@@ -11,6 +11,12 @@ import setIntersectionFinders.P1AndP2;
 import setIntersectionFinders.P3;
 import setIntersectionFinders.P4;
 
+/**
+ * 
+ * Class that generates random data sets and  prints them to the console to test the DataGeneration.
+ *
+ */
+
 public class DataGeneratorTester {
 
 	public static void main(String[] args) {

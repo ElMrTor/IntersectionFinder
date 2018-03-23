@@ -14,7 +14,7 @@ import setIntersectionFinders.P4;
  * Class is based on the StrategiesTimeCollection from the lab of sorting algorithms.
  * It is modified so that it can run with the four intersection types.
  * 
- * @author Héctor E. Montes Martinez
+ * @author Hector E. Montes Martinez
  *
  * @param <Integer>
  */

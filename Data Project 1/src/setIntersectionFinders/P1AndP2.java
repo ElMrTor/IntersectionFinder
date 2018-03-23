@@ -12,7 +12,7 @@ import mySetImplementations.Set2;
  * so then it can be processed by the intersection finder according to the name of the method chosen.
  * 
  * 
- * @author Héctor E. Montes Martinez
+ * @author Hector E. Montes Martinez
  *
  * @param <E>
  */
@@ -60,10 +60,10 @@ public class P1AndP2<E> extends AbstractIntersectionFinder {
 	
 	public MySet[] generateSets(Integer[][][] data) {
 		
-		if(getName().equals("P1")) {
+		if(getName().equals("P2")) {
 			MySet[] verify = new MySet[data[0].length];
 			for(int i = 0; i < data[0].length; i++) {
-				MySet set = new Set1<Integer>();
+				MySet set = new Set2<Integer>();
 				for(int j = 0; j < data.length; j++) {
 							
 					for(int k = 0; k<data[j][i].length; k++) {
@@ -77,10 +77,10 @@ public class P1AndP2<E> extends AbstractIntersectionFinder {
 			return verify;
 		}
 		
-		if(getName().equals("P2")){
+		if(getName().equals("P1")){
 			MySet[] verify = new MySet[data[0].length];
 			for(int i = 0; i < data[0].length; i++) {
-				MySet set = new Set2<Integer>();
+				MySet set = new Set1<Integer>();
 				for(int j = 0; j < data.length; j++) {							
 					for(int k = 0; k<data[j][i].length; k++) {
 						if(!set.contains(data[j][i][k])) {

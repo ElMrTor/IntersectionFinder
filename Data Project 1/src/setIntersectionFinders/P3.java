@@ -10,7 +10,7 @@ import mySetImplementations.Set2;
  * 
  * Class that arranges the data so that the P3 strategy can be implemented and get the intersecting sets by this strategy.
  * 
- * @author Héctor E. Montes Martinez
+ * @author Hector E. Montes Martinez
  *
  * @param <E>
  */

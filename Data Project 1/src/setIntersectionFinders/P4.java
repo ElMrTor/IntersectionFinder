@@ -12,7 +12,7 @@ import mySetImplementations.Set2;
 /**
  * Class that implements the P4 intersection strategy and it can also return the intersecting sets of the data analyzed.
  * 
- * @author Héctor E. Montes Martinez
+ * @author Hector E. Montes Martinez
  *
  * @param <E>
  */

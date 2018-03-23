@@ -5,7 +5,14 @@ import interfaces.MySet;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-
+/**
+ * Set1<E> as studied in class lecture.
+ * No changes were made.
+ * 
+ * Set that uses arraylist to store elements of a type.
+ *
+ * @param <E>
+ */
 
 public class Set1<E> extends AbstractMySet<E> {
 	   private ArrayList<E> elements; 

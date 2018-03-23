@@ -14,6 +14,18 @@ import setIntersectionFinders.P1AndP2;
 import setIntersectionFinders.P3;
 import setIntersectionFinders.P4;
 
+
+/**
+ * 
+ * Class that finds the intersecting sets between all the input files given.
+ * 
+ * Can use no parameters to print all intersecting numbers with all four strategies or 1-4 depending corresponding to
+ * strategy P1 - 1, P2 - 2, P3 - 3, P4 -4.
+ * 
+ * @author Hector E. Montes Martinez
+ *
+ */
+
 public class Part1Main {
 
 	static Object allData[][][];
@@ -58,7 +70,7 @@ public class Part1Main {
 	}
 	
 	
-	
+	//Methods that print the intersecting numbers according to the strategy chosen.
 	
 	public static void doSolutionP1() {
 

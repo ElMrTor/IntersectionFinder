@@ -7,6 +7,12 @@ import java.util.Scanner;
 
 import dataGenerator.DataGenerator;
 
+/**
+ * 
+ * Generates files with random numbers to be used in the other parts of the project.
+ *
+ */
+
 public class FilesGeneratorMain {
 
 	public static void main(String[] args) throws FileNotFoundException {

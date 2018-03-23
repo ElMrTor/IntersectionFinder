@@ -6,6 +6,16 @@ import java.util.Iterator;
 
 import interfaces.MySet;
 
+/**
+ * 
+ * Set2<E> as studied in class lecture.
+ * No changes were made.
+ * 
+ * Set that uses hashmap to store elements of a type.
+ *
+ * @param <E>
+ */
+
 public class Set2<E> extends AbstractMySet<E> {
 	   private HashMap<E, E> elements; 
 	   public Set2() { 
